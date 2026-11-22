@@ -1,0 +1,47 @@
+{
+    "name": "ai-video-content-pipeline",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "local-api": "node tools/local-api/start.mjs",
+        "muse-api": "node tools/muse-mock/start.mjs",
+        "test:muse-api": "node --test tools/muse-mock/server.test.mjs",
+        "local-api:model": "node tools/local-api/start.mjs --check-model",
+        "test:local-api": "node --test tools/local-api/server.test.mjs",
+        "test:local-prompts": "node --test scripts/test-local-prompts.cjs",
+        "test:local-prompt-build": "node scripts/smoke-local-prompt-build.cjs",
+        "benchmark:local-prompts": "node scripts/benchmark-local-prompts.cjs",
+        "lint": "next lint",
+        "test:smart-director": "node scripts/test-smart-director.cjs",
+        "benchmark:smart-director": "node scripts/benchmark-smart-director.cjs"
+    },
+    "dependencies": {
+        "@anthropic-ai/sdk": "^0.112.1",
+        "@google/generative-ai": "^0.24.1",
+        "@radix-ui/react-label": "^2.1.0",
+        "class-variance-authority": "^0.7.0",
+        "clsx": "^2.1.0",
+        "edge-tts-universal": "^1.4.0",
+        "lucide-react": "^0.312.0",
+        "next": "^15.0.0",
+        "openai": "^4.20.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "sharp": "^0.34.5",
+        "tailwind-merge": "^2.2.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.10.0",
+        "@types/react": "^18.2.0",
+        "@types/react-dom": "^18.2.0",
+        "autoprefixer": "^10.4.16",
+        "eslint": "^8.55.0",
+        "eslint-config-next": "^15.0.0",
+        "postcss": "^8.4.32",
+        "tailwindcss": "^3.4.0",
+        "typescript": "^5.3.0"
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "codex-cli-local-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "local-api": "node start.mjs",
+    "local-api:model": "node start.mjs --check-model",
+    "start": "node start.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

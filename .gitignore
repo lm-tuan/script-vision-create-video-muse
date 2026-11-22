@@ -1,0 +1,77 @@
+# Dependencies
+node_modules
+/.pnp
+.pnp.js
+/.venv-muse/
+/.muse-mock/
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+
+# Production
+/build
+
+# Misc
+.DS_Store
+*.pem
+Thumbs.db
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Local env files
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# Python environments and cache
+.venv/
+__pycache__/
+*.py[cod]
+
+# TypeScript cache
+*.tsbuildinfo
+next-env.d.ts
+
+# Custom outputs (generated at runtime)
+/outputs/*
+!/outputs/.gitkeep
+/public/outputs/*
+!/public/outputs/.gitkeep
+
+# Scratch / temp scripts
+/scratch/
+
+# GPT-SoVITS local model
+gpt-sovits/
+
+# Evidence / debug docs
+/docs/evidence/
+/docs/image_promot..PNG
+/docs/promot.txt
+
+# Debug & temp files in root
+scenes_debug.json
+/scripts/select_folder_config.json
+
+# Generated image batches (large local render outputs)
+/generated_images/
+/generated_j5/
+/generated_j502/
+/generated_k5/
+
+# Internal planning & refactor notes (not for repo)
+imp.md
+imp_duration.md
+imp_transcript.md
+refactor.md
+refactor_tool_imp.md
+refactor_tool_impv2.md

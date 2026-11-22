@@ -1,0 +1,154 @@
+{
+  "recordedAt": "2026-11-05T07:49:51.547Z",
+  "mode": "live-local-ai",
+  "sceneCount": 6,
+  "transcriptChars": 0,
+  "promptLanguage": "en",
+  "trials": [
+    {
+      "repetition": 1,
+      "batchSize": 5,
+      "compact": false,
+      "elapsedMs": 42651,
+      "success": true,
+      "scenes": 6,
+      "images": 10,
+      "timeIssues": 0,
+      "metrics": {
+        "batchSize": 5,
+        "batches": 2,
+        "elapsedMs": 42626,
+        "template": "prompt.md"
+      }
+    },
+    {
+      "repetition": 1,
+      "batchSize": 10,
+      "compact": false,
+      "elapsedMs": 33382,
+      "success": true,
+      "scenes": 6,
+      "images": 11,
+      "timeIssues": 0,
+      "metrics": {
+        "batchSize": 10,
+        "batches": 1,
+        "elapsedMs": 33371,
+        "template": "prompt.md"
+      }
+    },
+    {
+      "repetition": 1,
+      "batchSize": 10,
+      "compact": true,
+      "elapsedMs": 38074,
+      "success": true,
+      "scenes": 6,
+      "images": 10,
+      "timeIssues": 0,
+      "metrics": {
+        "batchSize": 10,
+        "batches": 1,
+        "elapsedMs": 38070,
+        "template": "prompt_local.md"
+      }
+    },
+    {
+      "repetition": 2,
+      "batchSize": 10,
+      "compact": true,
+      "elapsedMs": 33420,
+      "success": true,
+      "scenes": 6,
+      "images": 10,
+      "timeIssues": 0,
+      "metrics": {
+        "batchSize": 10,
+        "batches": 1,
+        "elapsedMs": 33417,
+        "template": "prompt_local.md"
+      }
+    },
+    {
+      "repetition": 2,
+      "batchSize": 10,
+      "compact": false,
+      "elapsedMs": 44039,
+      "success": true,
+      "scenes": 6,
+      "images": 10,
+      "timeIssues": 0,
+      "metrics": {
+        "batchSize": 10,
+        "batches": 1,
+        "elapsedMs": 44022,
+        "template": "prompt.md"
+      }
+    },
+    {
+      "repetition": 2,
+      "batchSize": 5,
+      "compact": false,
+      "elapsedMs": 37901,
+      "success": true,
+      "scenes": 6,
+      "images": 10,
+      "timeIssues": 0,
+      "metrics": {
+        "batchSize": 5,
+        "batches": 2,
+        "elapsedMs": 37896,
+        "template": "prompt.md"
+      }
+    },
+    {
+      "repetition": 3,
+      "batchSize": 5,
+      "compact": false,
+      "elapsedMs": 44017,
+      "success": true,
+      "scenes": 6,
+      "images": 10,
+      "timeIssues": 0,
+      "metrics": {
+        "batchSize": 5,
+        "batches": 2,
+        "elapsedMs": 44009,
+        "template": "prompt.md"
+      }
+    },
+    {
+      "repetition": 3,
+      "batchSize": 10,
+      "compact": false,
+      "elapsedMs": 43986,
+      "success": true,
+      "scenes": 6,
+      "images": 10,
+      "timeIssues": 0,
+      "metrics": {
+        "batchSize": 10,
+        "batches": 1,
+        "elapsedMs": 43979,
+        "template": "prompt.md"
+      }
+    },
+    {
+      "repetition": 3,
+      "batchSize": 10,
+      "compact": true,
+      "elapsedMs": 39337,
+      "success": true,
+      "scenes": 6,
+      "images": 10,
+      "timeIssues": 0,
+      "metrics": {
+        "batchSize": 10,
+        "batches": 1,
+        "elapsedMs": 39335,
+        "template": "prompt_local.md"
+      }
+    }
+  ],
+  "limitation": "Small fixture; structural checks do not establish semantic quality. Review images/content separately before rollout."
+}
